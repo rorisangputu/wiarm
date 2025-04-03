@@ -1,5 +1,4 @@
 import React from 'react'
-import cab from './../assets/cab.jpg'
 import mulch from '../assets/mulch_farming.webp'
 
 const Hero = () => {
