@@ -3,7 +3,7 @@ import Header from '../components/Header';
 
 const Layout = ({children}) => {
   return (
-    <div>
+    <div className='w-[70%] mx-auto'>
         <Header/>
         <div>
             {children}
