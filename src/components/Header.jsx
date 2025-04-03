@@ -5,11 +5,11 @@ import corn from '../assets/corn_img.png'
 const Header = () => {
   return (
     <div className="w-full py-4">
-      <div className="w-[70%] mx-auto flex justify-between items-center">
+      <div className="flex justify-between items-center">
           {/* Logo */}
           <Link to={"/"}>
             <div className="flex flex-col items-center gap-1">
-              <img src={corn} alt="" className="w-7 h-7 text-[#283618]" /> 
+              <img src={corn} alt="" className="w-7 h-7 text-[#46973B]" /> 
               <h1 className="font-semibold text-md">WiARM</h1>
             </div>
           </Link>
@@ -27,7 +27,7 @@ const Header = () => {
           </div>
 
           {/* Contact us */}
-          <div className="bg-[#283618] flex items-center rounded-3xl py-3 px-5">
+          <div className="bg-[#46973B] flex items-center rounded-3xl py-3 px-5">
             <p className="text-[#fefae0] text-normal font-normal">Get in touch</p>
           </div>
         
