@@ -12,6 +12,7 @@ const AboutSection = () => {
                     Rooted in justice, empowerment, and collective action, we cultivate not just crops, but a 
                     future where Black women thrive in agriculture.
                 </p>
+                <button></button>
             </div>
             <div className='w-1/2'>
                 <p>We plant, we fight, we rise!</p>
