@@ -3,12 +3,12 @@ import mulch from '../assets/mulch_farming.webp'
 
 const Hero = () => {
   return (
-    <div className="relative w-full h-[50vh] flex items-center justify-center bg-gray-900 text-white">
+    <div className="relative w-full h-[50vh] flex items-center justify-center bg-gray-900 text-white rounded-2xl">
       {/* Background Image */}
       <img 
         src={mulch} 
         alt="Mulch" 
-        className="absolute inset-0 w-full h-full object-cover opacity-40" 
+        className="absolute inset-0 w-full h-full object-cover opacity-40 rounded-2xl" 
       />
 
       {/* Content */}
