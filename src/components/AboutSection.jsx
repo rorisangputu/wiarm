@@ -1,10 +1,11 @@
 import React from 'react'
 import farmingWomen from '../assets/woman_farming.webp'
-import wheat_hands from '../assets/wheat.png'
+import { MdArrowOutward } from "react-icons/md";
+import { Link } from 'react-router-dom';
 const AboutSection = () => {
   return (
-    <div className='my-7'>
-        <h1 className='font-semibold text-normal mb-5 text-gray-500'>About Us</h1>
+    <div className='my-10'>
+        <h1 className='font-semibold text-lg mb-3 text-gray-500'>About Us</h1>
         <div className='w-full flex flex-row gap-5'>
             <div className='w-1/2 flex flex-col justify-between'>
                 <p className='text-xl font-light w-full'>
@@ -13,15 +14,19 @@ const AboutSection = () => {
                     Rooted in justice, empowerment, and collective action, we cultivate not just crops, but a 
                     future where Black women thrive in agriculture.
                 </p>
-                <p className='text-xl font-semibold uppercase'>We plant, we fight, we rise!</p>
-                <button className="w-fit mt-6 px-6 py-3 bg-[#46973B] hover:bg-green-700 text-white font-semibold rounded-3xl transition duration-300">
-                    Learn More 
-                    
-                </button>
+                <p className='text-2xl font-extrabold uppercase'>We plant, we fight, we rise!</p>
+                <div className='w-fit'>
+                    <Link to={'/'} >
+                        <div className="w-fit flex flex-row items-center gap-2 px-6 py-3 bg-[#46973B] hover:bg-green-700 text-white font-norma; rounded-3xl transition duration-300">
+                            <p>Learn More</p>
+                            <MdArrowOutward className='h-5 w-5' />
+                        </div>
+                    </Link>
+                </div>
             </div>
             <div className='w-1/2 flex flex-col gap-5 items-end'>
                 
-                <img src={farmingWomen} alt="" className='w-full h-[40vh] rounded-4xl object-cover' />
+                <img src={farmingWomen} alt="" className='w-full h-full rounded-4xl object-cover' />
             </div>
         </div>
     </div>
