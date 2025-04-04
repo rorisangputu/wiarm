@@ -4,7 +4,7 @@ import corn from '../assets/corn_img.png'
 
 const Header = () => {
   return (
-    <div className="w-full py-4">
+    <div className="w-full py-4 mb-5">
       <div className="flex justify-between items-center">
         {/* Logo */}
         <Link to={"/"}>
