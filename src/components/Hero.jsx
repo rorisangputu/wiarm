@@ -1,6 +1,7 @@
 import React from 'react'
 import mulch from '../assets/mulch_farming.webp'
 
+
 const Hero = () => {
   return (
     <div className="relative w-full h-[50vh] flex items-center justify-center bg-gray-900 text-white rounded-2xl">
