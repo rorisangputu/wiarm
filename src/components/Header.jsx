@@ -10,7 +10,7 @@ const Header = () => {
         <Link to={"/"}>
           <div className="flex flex-col items-center gap-1">
             <img src={corn} alt="" className="w-7 h-7 text-[#46973B]" /> 
-            <h1 className="font-semibold text-md">WiARM</h1>
+            <h1 className="font-semibold text-xl">WiARM</h1>
           </div>
         </Link>
 
