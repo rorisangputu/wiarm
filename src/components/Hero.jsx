@@ -20,8 +20,8 @@ const Hero = () => {
         </p>
 
         {/* Call to Action */}
-        <button className="mt-6 px-6 py-3 bg-[#46973B] hover:bg-green-700 text-white font-semibold rounded-3xl transition duration-300">
-          Join the Movement
+        <button className="mt-6 px-6 py-3 bg-[#46973B] hover:bg-green-700 text-white font-normal rounded-3xl transition duration-300">
+          Join Us
         </button>
       </div>
     </div>
