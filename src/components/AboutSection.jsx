@@ -25,7 +25,6 @@ const AboutSection = () => {
                 </div>
             </div>
             <div className='w-1/2 flex flex-col gap-5 items-end'>
-                
                 <img src={farmingWomen} alt="" className='w-full h-full rounded-4xl object-cover' />
             </div>
         </div>
