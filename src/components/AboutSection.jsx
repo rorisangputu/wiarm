@@ -4,7 +4,7 @@ import { MdArrowOutward } from "react-icons/md";
 import { Link } from 'react-router-dom';
 const AboutSection = () => {
   return (
-    <div className='my-10 h-[70vh] flex flex-col justify-center'>
+    <div className=' h-[70vh] flex flex-col justify-center'>
         <h1 className='font-semibold text-lg mb-3 text-gray-500'>About Us</h1>
         <div className='w-full flex flex-row gap-5'>
             <div className='w-1/2 flex flex-col justify-between'>
