@@ -11,7 +11,7 @@ const Pillars = () => {
       <div className='flex flex-col gap-5'>
         <div className='flex flex-col items-center my-4'>
           <h2 className='text-xl font-semibold'>Building Power from the Soil Up</h2>
-          <p className='mt-3 px-10 text-center font-light text-lg'>
+          <p className='mt-3 px-20 text-center font-light text-lg'>
             At the heart of WiARM&apos;s work are the foundational pillars that guide our mission. 
             These pillars represent the core values and strategic focus areas that help us move toward liberation 
             through land, food, and community. They are more than goals—they are the roots of a movement built by 
