@@ -34,7 +34,7 @@ const Header = () => {
           <div className="flex items-center gap-2">
             <img src={corn} alt="" className="h-10 w-10" />
             <div className="py-2">
-              <h1 className={`text-xl font-bold ${scrolled ? 'text-gray-900' : 'text-white'}`}>WIARM</h1>
+              <h1 className={`text-2xl font-medium ${scrolled ? 'text-gray-900' : 'text-white'}`}>WIARM</h1>
             </div>
           </div>
 
@@ -44,7 +44,7 @@ const Header = () => {
             className="md:hidden text-white focus:outline-none"
           >
             <svg
-              className="w-7 h-7"
+              className="w-8 h-8"
               fill="none"
               stroke={scrolled ? "black" : "white"}
               viewBox="0 0 24 24"
