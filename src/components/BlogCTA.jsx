@@ -26,13 +26,13 @@ const BlogCTA = () => {
                     <div className='text-sm text-gray-600 mb-1'>
                         By <span className='font-medium text-green-900'>Zanele Mkhize</span> · March 30, 2025
                     </div>
-                    <p className='text-gray-700 text-sm md:text-base'>
+                    <p className='text-gray-700 font-sans text-sm md:text-base'>
                         Get an inside look at how WiARM organizes on the ground—from early morning farm work to
                         late-night strategy circles. This blog post shares the spirit, sweat, and sisterhood that fuels
                         our movement and the small victories that keep us going.
                     </p>
                     <Link to="/blog">
-                        <button className='mt-4 px-5 py-3 bg-green-900 hover:bg-[#2b5131] text-white rounded-xl shadow'>
+                        <button className='mt-4 font-sans px-5 py-3 bg-green-900 hover:bg-[#2b5131] text-white rounded-xl shadow'>
                             View All Blogs
                         </button>
                     </Link>
