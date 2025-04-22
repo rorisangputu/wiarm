@@ -1,6 +1,7 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import corn from "../assets/corn_img.png";
+
 
 const links = [
   { title: "Home", url: "/" },
@@ -10,19 +11,30 @@ const links = [
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const [scrolled, setScrolled] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setScrolled(window.scrollY > 50);
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
+
 
   return (
-    <div className={`w-full my-5 z-50 fixed top-0 left-0 bg-transparent`}>
+    <div className={`w-full py-5 fixed top-[-1vh] left-0 z-50 transition-all duration-300 ${
+      scrolled ? 'bg-white shadow-md mt-[-1]' : 'bg-transparent'
+      }`}
+    >
       <div className="w-[90%] mx-auto ">
         <div className="flex items-center justify-between">
           {/* Logo */}
           <div className="flex items-center gap-2">
             <img src={corn} alt="" className="h-10 w-10" />
-            <div>
-              <h1 className="text-white text-xl font-bold">WIARM</h1>
-              <p className="text-white w-28 leading-3 text-[1.5vh]">
-                Women In Agriculture Rural Movement
-              </p>
+            <div className="py-2">
+              <h1 className={`text-xl font-bold ${scrolled ? 'text-gray-900' : 'text-white'}`}>WIARM</h1>
             </div>
           </div>
 
@@ -34,7 +46,7 @@ const Header = () => {
             <svg
               className="w-7 h-7"
               fill="none"
-              stroke="currentColor"
+              stroke={scrolled ? "black" : "white"}
               viewBox="0 0 24 24"
               xmlns="http://www.w3.org/2000/svg"
             >
@@ -65,7 +77,7 @@ const Header = () => {
                 key={link.title}
                 to={link.url}
                 onClick={() => setIsOpen(false)}
-                className="block px-4 py-2 text-gray-700 hover:bg-gray-100"
+                className={`block px-4 py-2 ${scrolled ? 'text-gray-800' : 'text-gray-100'} hover:bg-gray-100`}
               >
                 {link.title}
               </Link>
