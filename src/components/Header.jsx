@@ -59,13 +59,13 @@ const Header = () => {
 
         {/* Dropdown Menu */}
         {isOpen && (
-          <div className="mt-2 flex flex-col space-y-2 md:hidden">
+          <div className="absolute top-full left-0 w-full bg-white shadow-md flex flex-col space-y-2 md:hidden z-40">
             {links.map((link) => (
               <Link
                 key={link.title}
                 to={link.url}
                 onClick={() => setIsOpen(false)}
-                className="block px-2 py-1 text-gray-700 hover:bg-gray-100 rounded"
+                className="block px-4 py-2 text-gray-700 hover:bg-gray-100"
               >
                 {link.title}
               </Link>
