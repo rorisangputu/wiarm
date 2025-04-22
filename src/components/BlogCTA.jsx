@@ -12,13 +12,13 @@ const BlogCTA = () => {
                     <img
                         src={blogImage}
                         alt="WiARM Blog Teaser"
-                        className='w-full h-[300px] object-cover rounded-lg shadow-md'
+                        className='w-full h-[350px] object-cover rounded-3xl shadow-md'
                     />
                 </div>
 
                 {/* Text Content */}
                 <div className='w-full md:w-1/2 flex flex-col justify-center gap-3'>
-                    <p className='text-sm uppercase text-green-800 font-medium tracking-wider'>Behind the Scene</p>
+                    <p className='text-sm uppercase text-green-800 font-normal tracking-[0.3em]'>Behind the Scene</p>
                     <h2 className='text-2xl md:text-3xl font-bold text-gray-800'>
                         How We Mobilize: Building Power from the Ground Up
                     </h2>
@@ -32,7 +32,7 @@ const BlogCTA = () => {
                         our movement and the small victories that keep us going.
                     </p>
                     <Link to="/blog">
-                        <button className='mt-4 px-5 py-2 bg-[#34633c] hover:bg-[#2b5131] text-white rounded shadow'>
+                        <button className='mt-4 px-5 py-3 bg-green-900 hover:bg-[#2b5131] text-white rounded-xl shadow'>
                             View All Blogs
                         </button>
                     </Link>

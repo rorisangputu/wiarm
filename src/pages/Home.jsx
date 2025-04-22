@@ -4,6 +4,7 @@ import AboutSection from '../components/AboutSection'
 import Pillars from '../components/Pillars'
 import MissionValues from '../components/MissionValues'
 import Campaigns from '../components/Campaigns'
+import BlogCTA from '../components/BlogCTA'
 
 const Home = () => {
   return (
@@ -13,6 +14,7 @@ const Home = () => {
       <MissionValues />
       <Pillars />
       <Campaigns />
+      <BlogCTA />
     </div>
   )
 }
