@@ -7,10 +7,7 @@ import Involved from '../components/Involved'
 const Home = () => {
   return (
     <div>
-      <Hero/>
-      <AboutSection/>
-      <Pillars/>
-      <Involved/>
+      
     </div>
   )
 }
