@@ -12,15 +12,15 @@ const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <div className="w-full py-2 z-50 relative">
-      <div className="mx-auto ">
+    <div className={`w-full my-5 z-50 fixed top-0 left-0 bg-transparent`}>
+      <div className="w-[90%] mx-auto ">
         <div className="flex items-center justify-between">
           {/* Logo */}
           <div className="flex items-center gap-2">
             <img src={corn} alt="" className="h-10 w-10" />
             <div>
-              <h1 className="text-xl font-bold">WIARM</h1>
-              <p className="w-28 leading-3 text-[1.5vh]">
+              <h1 className="text-white text-xl font-bold">WIARM</h1>
+              <p className="text-white w-28 leading-3 text-[1.5vh]">
                 Women In Agriculture Rural Movement
               </p>
             </div>
@@ -29,10 +29,10 @@ const Header = () => {
           {/* Toggle Button */}
           <button
             onClick={() => setIsOpen(!isOpen)}
-            className="md:hidden text-gray-700 focus:outline-none"
+            className="md:hidden text-white focus:outline-none"
           >
             <svg
-              className="w-6 h-6"
+              className="w-7 h-7"
               fill="none"
               stroke="currentColor"
               viewBox="0 0 24 24"
