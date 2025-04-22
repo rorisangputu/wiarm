@@ -24,24 +24,23 @@ const Header = () => {
 
 
   return (
-    <div className={`w-full py-5 fixed top-[-1vh] left-0 z-50 transition-all duration-300 ${
-      scrolled ? 'bg-white shadow-md mt-[-1]' : 'bg-transparent'
+    <div className={`w-full py-5 fixed top-[-1vh] left-0 z-50 transition-all duration-300 ${scrolled ? 'bg-white shadow-md mt-[-1]' : 'bg-transparent'
       }`}
     >
       <div className="w-[90%] mx-auto ">
         <div className="flex items-center justify-between">
           {/* Logo */}
-          <div className="flex items-center gap-2">
-            <img src={corn} alt="" className="h-10 w-10" />
+          <Link to='/' className="flex items-center gap-2">
+            <img src={corn} alt="" className="h-7 w-7" />
             <div className="py-2">
-              <h1 className={`text-2xl font-medium ${scrolled ? 'text-gray-900' : 'text-white'}`}>WIARM</h1>
+              <h1 className={`text-2xl font-light ${scrolled ? 'text-gray-900' : 'text-white'}`}>WIARM</h1>
             </div>
-          </div>
+          </Link>
 
           {/* Toggle Button */}
           <button
             onClick={() => setIsOpen(!isOpen)}
-            className="md:hidden text-white focus:outline-none"
+            className="md:hidden text-white border-1 rounded-full p-2 focus:outline-none"
           >
             <svg
               className="w-8 h-8"
@@ -71,13 +70,13 @@ const Header = () => {
 
         {/* Dropdown Menu */}
         {isOpen && (
-          <div className="absolute top-full left-0 w-full bg-white shadow-md flex flex-col space-y-2 md:hidden z-40">
+          <div className={`mt-[-1vh] absolute top-full left-0 w-full bg-white shadow-md flex flex-col space-y-2 md:hidden z-40`}>
             {links.map((link) => (
               <Link
                 key={link.title}
                 to={link.url}
                 onClick={() => setIsOpen(false)}
-                className={`block px-4 py-2 ${scrolled ? 'text-gray-800' : 'text-gray-100'} hover:bg-gray-100`}
+                className={`block px-4 py-2 ${scrolled ? 'text-gray-800' : 'text-gray-800'} hover:bg-gray-100`}
               >
                 {link.title}
               </Link>
