@@ -1,0 +1,46 @@
+import React from 'react';
+import { Link } from 'react-router-dom';
+import blogImage from '../assets/land.webp'; // Replace with your image path
+
+const BlogCTA = () => {
+    return (
+        <div className='w-full bg-[#f4f4f4] py-10 '>
+            <div className='w-[90%] mx-auto flex flex-col md:flex-row items-center gap-8'>
+
+                {/* Image */}
+                <div className='w-full md:w-1/2'>
+                    <img
+                        src={blogImage}
+                        alt="WiARM Blog Teaser"
+                        className='w-full h-[300px] object-cover rounded-lg shadow-md'
+                    />
+                </div>
+
+                {/* Text Content */}
+                <div className='w-full md:w-1/2 flex flex-col justify-center gap-3'>
+                    <p className='text-sm uppercase text-green-800 font-medium tracking-wider'>Behind the Scene</p>
+                    <h2 className='text-2xl md:text-3xl font-bold text-gray-800'>
+                        How We Mobilize: Building Power from the Ground Up
+                    </h2>
+                    {/* Author and Date */}
+                    <div className='text-sm text-gray-600 mb-1'>
+                        By <span className='font-medium text-green-900'>Zanele Mkhize</span> · March 30, 2025
+                    </div>
+                    <p className='text-gray-700 text-sm md:text-base'>
+                        Get an inside look at how WiARM organizes on the ground—from early morning farm work to
+                        late-night strategy circles. This blog post shares the spirit, sweat, and sisterhood that fuels
+                        our movement and the small victories that keep us going.
+                    </p>
+                    <Link to="/blog">
+                        <button className='mt-4 px-5 py-2 bg-[#34633c] hover:bg-[#2b5131] text-white rounded shadow'>
+                            View All Blogs
+                        </button>
+                    </Link>
+                </div>
+
+            </div>
+        </div>
+    );
+};
+
+export default BlogCTA;
