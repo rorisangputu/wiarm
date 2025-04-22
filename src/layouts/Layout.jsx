@@ -3,7 +3,7 @@ import Header from '../components/Header';
 
 const Layout = ({children}) => {
   return (
-    <div className='relative'>
+    <div className=''>
         <Header/>
         <div>
             {children}
