@@ -13,7 +13,7 @@ const Hero = () => {
   />
 
   {/* Content */}
-  <div className="relative z-10 text-center px-6">
+  <div className="top-4 relative z-10 text-center px-6">
     <h1 className="text-4xl font-semibold md:text-5xl">Agriculture for Liberation</h1>
     <p className="mt-3 font-normal text-md md:text-xl max-w-2xl mx-auto">
       Reclaiming land, food sovereignty, and our future. 
