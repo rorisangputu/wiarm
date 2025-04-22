@@ -15,12 +15,12 @@ const MissionValues = () => {
       {/* Content Layer */}
       <div className='w-[90%] mx-auto relative z-10'>
         <div className='flex flex-col'>
-          <div className="flex items-center gap-4 justify-center mb-3">
-            <hr className="w-12 border-t-2 border-gray-200" />
+          <div className="flex items-center gap-4 justify-center mb-5">
+            <hr className="w-12 border-t-2 border-[#cecece]" />
             <h1 className="uppercase font-medium tracking-[0.2em] text-white">
               Mission & Values
             </h1>
-            <hr className="w-12 border-t-2 border-gray-200" />
+            <hr className="w-12 border-t-2 border-[#cecece]" />
           </div>
 
           <div className='flex flex-col gap-10  md:flex-row'>
