@@ -88,9 +88,9 @@ const Footer = () => {
         </div>
 
         {/* Bottom Section */}
-        <div className='w-full flex flex-col md:flex-row justify-between items-center mt-6 text-sm border-t border-white pt-4'>
-          <p>Terms & Conditions | Privacy Policy</p>
-          <p>&copy; 2025 WiARM - Women in Agriculture Rural Movement</p>
+        <div className='w-full flex flex-col items-center mt-6 text-sm pt-4'>
+          <p>&copy; 2025 WiARM</p>
+          <p>Women in Agriculture Rural Movement</p>
         </div>
       </div>
     </div>
