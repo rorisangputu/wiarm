@@ -5,7 +5,7 @@ import { FaPhoneAlt } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <div className='w-full bg-[#34633c] py-7 text-white'>
+    <div className='w-full bg-green-900 py-7 text-[#dddddd]'>
       <div className='w-[90%] max-w-7xl mx-auto flex flex-col justify-between'>
         
         {/* Top Section */}
@@ -16,7 +16,7 @@ const Footer = () => {
             <Link to={"/"}>
               <div className="flex items-center gap-3 my-2">
                 <img src={corn} alt="WiARM Logo" className="w-7 h-7" />
-                <h1 className="font-semibold text-xl">WiARM</h1>
+                <h1 className="font-semibold text-xl text-white">WiARM</h1>
               </div>
             </Link>
             <div className='flex flex-col gap-2 text-sm'>
@@ -30,20 +30,43 @@ const Footer = () => {
           </div>
 
           {/* Quick Links */}
-          <div>
-            <h1 className='text-xl font-semibold mb-3'>Quick Links</h1>
-            <ul className='space-y-2 text-sm'>
-              <li><Link to="/">Home</Link></li>
-              <li><Link to="/about">About</Link></li>
-              <li><Link to="/projects">Projects</Link></li>
-              <li><Link to="/blog">Blog</Link></li>
-              <li><Link to="/contact">Contact</Link></li>
-            </ul>
+          <div className='grid grid-cols-2 md:grid-cols-3 gap-10'>
+            <div>
+              <h1 className='text-md font-normal tracking-[0.2em] uppercase mb-3 text-white'>Quick Links</h1>
+              <ul className='space-y-4 font-normal text-md'>
+                <li><Link to="/">Home</Link></li>
+                <li><Link to="/about">About</Link></li>
+                <li><Link to="/projects">Projects</Link></li>
+                <li><Link to="/blog">Blog</Link></li>
+                <li><Link to="/contact">Contact</Link></li>
+              </ul>
+            </div>
+            <div>
+              <h1 className='text-md font-normal tracking-[0.2em] uppercase mb-3 text-white'>
+                Socials
+              </h1>
+              <ul className='space-y-4 text-md font-normal'>
+                <li><Link to="#">Facebook</Link></li>
+                <li><Link to="#">Instagram</Link></li>
+                <li><Link to="#">YouTube</Link></li>
+                
+              </ul>
+            </div>
+            <div>
+              <h1 className='text-md font-sans font-medium tracking-[0.2em] uppercase mb-3 text-white'>
+                Policies
+              </h1>
+              <ul className='space-y-5 text-md'>
+                <li><Link to="#">Terms & Conditions</Link></li>
+                <li><Link to="#">Privacy Policy</Link></li>
+                <li><Link to="#">Cookie Policy</Link></li>
+              </ul>
+            </div>
           </div>
 
           {/* Contact Form */}
           <div className=''>
-            <p className='text-xl font-semibold mb-2'>Send a Message</p>
+            <p className='text-xl font-medium font-sans mb-2 text-white'>Get In Touch</p>
             <form className='flex flex-col gap-3'>
               <div className='flex flex-col sm:flex-row gap-3'>
                 <input 
