@@ -32,7 +32,7 @@ const Footer = () => {
           {/* Quick Links */}
           <div className='grid grid-cols-2 md:grid-cols-3 gap-10'>
             <div>
-              <h1 className='text-md font-normal tracking-[0.2em] uppercase mb-3 text-white'>Quick Links</h1>
+              <h1 className='text-md font-sans font-medium tracking-[0.2em] uppercase mb-3 text-white'>Quick Links</h1>
               <ul className='space-y-4 font-normal text-md'>
                 <li><Link to="/">Home</Link></li>
                 <li><Link to="/about">About</Link></li>
@@ -42,7 +42,7 @@ const Footer = () => {
               </ul>
             </div>
             <div>
-              <h1 className='text-md font-normal tracking-[0.2em] uppercase mb-3 text-white'>
+              <h1 className='text-md font-sans font-medium tracking-[0.2em] uppercase mb-3 text-white'>
                 Socials
               </h1>
               <ul className='space-y-4 text-md font-normal'>
