@@ -5,6 +5,7 @@ import Pillars from '../components/Pillars'
 import MissionValues from '../components/MissionValues'
 import Campaigns from '../components/Campaigns'
 import BlogCTA from '../components/BlogCTA'
+import Action from '../components/Action'
 
 const Home = () => {
   return (
@@ -15,6 +16,7 @@ const Home = () => {
       <Pillars />
       <Campaigns />
       <BlogCTA />
+      <Action/>
     </div>
   )
 }
