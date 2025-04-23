@@ -19,14 +19,6 @@ const Footer = () => {
                 <h1 className="font-semibold text-xl text-white">WiARM</h1>
               </div>
             </Link>
-            <div className='flex flex-col gap-2 text-sm'>
-              <p>125 Crop Street, Johannesburg</p>
-              <p>House Name: Regal House</p>
-              <div className='flex items-center gap-2'>
-                <FaPhoneAlt />
-                <p>+27 (11)-574-9802</p>
-              </div>
-            </div>
           </div>
 
           {/* Quick Links */}
