@@ -1,11 +1,11 @@
 import React from 'react'
-import Hero from '../components/Hero'
-import AboutSection from '../components/AboutSection'
-import Pillars from '../components/Pillars'
-import MissionValues from '../components/MissionValues'
-import Campaigns from '../components/Campaigns'
-import BlogCTA from '../components/BlogCTA'
-import Action from '../components/Action'
+import Hero from '../components/Home/Hero'
+import AboutSection from '../components/Home/AboutSection'
+import Pillars from '../components/Home/Pillars'
+import MissionValues from '../components/Home/MissionValues'
+import Campaigns from '../components/Home/Campaigns'
+import BlogCTA from '../components/Home/BlogCTA'
+import Action from '../components/Home/Action'
 
 const Home = () => {
   return (

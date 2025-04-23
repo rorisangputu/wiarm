@@ -1,5 +1,5 @@
 import React from 'react'
-import farmingWomen from '../assets/woman_farming.webp'
+import farmingWomen from '../../assets/woman_farming.webp'
 import { MdArrowOutward } from "react-icons/md";
 import { Link } from 'react-router-dom';
 

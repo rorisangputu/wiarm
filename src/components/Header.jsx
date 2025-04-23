@@ -5,7 +5,7 @@ import corn from "../assets/corn_img.png";
 
 const links = [
   { title: "Home", url: "/" },
-  { title: "About", url: "/about" },
+  { title: "About", url: "/about-us" },
   { title: "Projects", url: "/projects" },
 ];
 
