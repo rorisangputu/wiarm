@@ -1,5 +1,5 @@
 import React from 'react'
-import action_bg from '../assets/GetInvolved.png'
+import action_bg from '../../assets/GetInvolved.png'
 
 const Action = () => {
   return (

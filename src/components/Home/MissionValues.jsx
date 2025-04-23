@@ -1,5 +1,5 @@
 import React from 'react'
-import wheatbg from '../assets/wheatbg.png'
+import wheatbg from '../../assets/wheatbg.png'
 
 const MissionValues = () => {
   return (

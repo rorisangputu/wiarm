@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import blogImage from '../assets/land.webp'; // Replace with your image path
+import blogImage from '../../assets/land.webp'; // Replace with your image path
 
 const BlogCTA = () => {
     return (

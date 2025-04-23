@@ -1,8 +1,8 @@
 import React from 'react'
-import dotted from '../assets/dotted_sa_bg.png'
-import women from '../assets/two_women_farming.jpg'
-import mulch from '../assets/mulch_farming.webp'
-import sov from '../assets/sov_food.jpg'
+import dotted from '../../assets/dotted_sa_bg.png'
+import women from '../../assets/two_women_farming.jpg'
+import mulch from '../../assets/mulch_farming.webp'
+import sov from '../../assets/sov_food.jpg'
 
 const Campaigns = () => {
     return (

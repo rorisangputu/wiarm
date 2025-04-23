@@ -1,5 +1,5 @@
 import React from 'react'
-import mulch from '../assets/mulch_farming.webp'
+import mulch from '../../assets/mulch_farming.webp'
 
 
 const Hero = () => {
