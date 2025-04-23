@@ -17,8 +17,8 @@ const Action = () => {
                     <hr className='w-12 border-slate-300'/>
                 </div>
                 <div className='flex flex-col text-center gap-5'>
-                    <h2 className='text-4xl font-medium text-gray-600 tracking-tight'>Become a part of this life-changing journey.</h2>
-                    <p className='text-gray-600'>Join us as we embark on the road to reclaiming our land.</p>
+                    <h2 className='text-4xl font-medium text-gray-600 leading-8 tracking-tight'>Become a part of this life-changing journey.</h2>
+                    <p className='text-gray-600 font-sans px-5'>Join us as we embark on the road to reclaiming our land.</p>
                     <div className='flex justify-center'>
                         <button className='bg-[#232d25] text-[#dddddd] font-medium py-3 px-5 font-sans capitalize rounded-xl'>
                             Find out more
