@@ -38,72 +38,7 @@ const Campaigns = () => {
                         </div>
                     </div>
                     <div className='grid gap-5 grid-cols-1 md:grid-cols-2 lg:grid-cols-3'>
-                        <div className='py-7 flex flex-col gap-7'>
-                            <img src={women} alt="" className='w-full h-84 rounded-3xl object-cover' />
-                            <div className='flex flex-col gap-2'>
-                                <h3 className='text-3xl capitalize font-normal'>
-                                    Seeds of Resistance
-                                </h3>
-                                <ul className='list-disc marker:text-2xl list-outside flex ml-5 gap-7 text-lg font-light'>
-                                    <li>Eastern Cape, RSA</li>
-                                    <li>March 20, 2025</li>
-                                </ul>
-                                <p className='line-clamp-2 font-light text-lg'>
-                                    This campaign brings together women farmers to reclaim ancestral
-                                    land for communal farming. Through seed exchanges, soil healing
-                                    workshops, and community planting days, “Seeds of Resistance” is
-                                    reviving indigenous farming methods and strengthening local food
-                                    systems rooted in tradition and resilience.
-                                </p>
-                            </div>
-                            <div className="flex justify-start">
-                                <BlackButton text={"View More"}/>
-                            </div>
-                        </div>
-                        <div className='py-7 flex flex-col gap-7'>
-                            <img src={sov} alt="" className='w-full h-84 rounded-3xl object-cover' />
-                            <div className='flex flex-col gap-2'>
-                                <h3 className='text-3xl capitalize font-normal'>
-                                    Harvesting Dignity Mission
-                                </h3>
-                                <ul className='list-disc marker:text-2xl list-outside flex ml-5 gap-10 text-lg font-light'>
-                                    <li>KwaZulu-Natal</li>
-                                    <li>May 10, 2025</li>
-                                </ul>
-                                <p className='line-clamp-2 font-light text-lg'>
-                                    Focused on building food sovereignty, this project supports local
-                                    women-led cooperatives to grow, process, and distribute fresh
-                                    produce within rural villages. The goal is to reduce food
-                                    insecurity and challenge the exploitative middleman model by
-                                    creating farm-to-table supply chains run by Black women.
-                                </p>
-                            </div>
-                            <div className="flex justify-start">
-                                <BlackButton text={"View More"}/>
-                            </div>
-                        </div>
-                        <div className='py-7 flex flex-col gap-7'>
-                            <img src={mulch} alt="" className='w-full h-84 rounded-3xl object-cover' />
-                            <div className='flex flex-col gap-2'>
-                                <h3 className='text-3xl capitalize font-normal'>
-                                    Agri-Education for Liberation
-                                </h3>
-                                <ul className='list-disc marker:text-2xl list-outside flex ml-5 gap-10 text-lg font-light'>
-                                    <li>Venda, Limpopo</li>
-                                    <li>September, 2025</li>
-                                </ul>
-                                <p className='line-clamp-2 font-light text-lg'>
-                                    This campaign trains young women in sustainable agriculture,
-                                    land rights, and food justice. Through hands-on learning, policy
-                                    education, and advocacy forums, WiARM is cultivating a generation
-                                    of leaders ready to transform the agricultural landscape from the
-                                    ground up.
-                                </p>
-                            </div>
-                            <div className="flex justify-start">
-                                <BlackButton text={"View More"}/>
-                            </div>
-                        </div>
+                        
                     </div>
                 </div>
             </div>
