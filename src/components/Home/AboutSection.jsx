@@ -2,6 +2,7 @@ import React from 'react'
 import farmingWomen from '../../assets/woman_farming.webp'
 import { MdArrowOutward } from "react-icons/md";
 import { Link } from 'react-router-dom';
+import Button from '../Button';
 
 const AboutSection = () => {
   return (
@@ -32,10 +33,7 @@ const AboutSection = () => {
                     </p>
                 </div>
                 <div className="flex justify-start">
-                    <button className="flex items-center gap-2 bg-green-800 rounded-xl py-3 px-4 text-white">
-                        Learn More
-                        <MdArrowOutward />
-                    </button>
+                    <Button text={"Learn More"}/>
                 </div>
             </div>
 
