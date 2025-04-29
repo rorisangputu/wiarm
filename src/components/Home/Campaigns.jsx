@@ -3,6 +3,7 @@ import dotted from '../../assets/dotted_sa_bg.png'
 import women from '../../assets/two_women_farming.jpg'
 import mulch from '../../assets/mulch_farming.webp'
 import sov from '../../assets/sov_food.jpg'
+import BlackButton from '../BlackButton'
 
 const Campaigns = () => {
     return (
@@ -32,9 +33,7 @@ const Campaigns = () => {
                                 These are our most recent campaigns
                             </p>
                             <div className="flex justify-center">
-                                <button className="flex capitalize font-light text-md items-center gap-2 bg-[#232d25] rounded-lg py-3 px-4 text-white">
-                                    View all campaigns
-                                </button>
+                                <BlackButton text={"View all campaigns"}/>
                             </div>
                         </div>
                     </div>
@@ -58,9 +57,7 @@ const Campaigns = () => {
                                 </p>
                             </div>
                             <div className="flex justify-start">
-                                <button className="flex capitalize font-light text-md items-center gap-2 bg-[#232d25] rounded-lg py-3 px-4 text-white">
-                                    View more
-                                </button>
+                                <BlackButton text={"View More"}/>
                             </div>
                         </div>
                         <div className='py-7 flex flex-col gap-7'>
@@ -82,9 +79,7 @@ const Campaigns = () => {
                                 </p>
                             </div>
                             <div className="flex justify-start">
-                                <button className="flex capitalize font-light text-md items-center gap-2 bg-[#232d25] rounded-lg py-3 px-4 text-white">
-                                    View more
-                                </button>
+                                <BlackButton text={"View More"}/>
                             </div>
                         </div>
                         <div className='py-7 flex flex-col gap-7'>
@@ -106,9 +101,7 @@ const Campaigns = () => {
                                 </p>
                             </div>
                             <div className="flex justify-start">
-                                <button className="flex capitalize font-light text-md items-center gap-2 bg-[#232d25] rounded-lg py-3 px-4 text-white">
-                                    View more
-                                </button>
+                                <BlackButton text={"View More"}/>
                             </div>
                         </div>
                     </div>
