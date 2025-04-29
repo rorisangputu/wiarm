@@ -1,5 +1,6 @@
 import React from 'react'
 import mulch from '../../assets/mulch_farming.webp'
+import HeroButton from '../HeroButton'
 
 
 const Hero = () => {
@@ -20,9 +21,7 @@ const Hero = () => {
           Join us in building a just and sustainable agricultural movement.
         </p>
 
-        <button className="font-sans mt-6 px-12 py-3 bg-green-800 hover:bg-green-900 text-white font-normal rounded-xl transition duration-300">
-          Join Us
-        </button>
+        <HeroButton styles={"font-sans mt-6 px-12 py-3 bg-green-800 hover:bg-green-900 text-white font-medium rounded-xl transition duration-300"}/>
       </div>
     </div>
 
