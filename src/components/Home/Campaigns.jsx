@@ -37,7 +37,7 @@ const Campaigns = () => {
                             </div>
                         </div>
                     </div>
-                    <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3'>
+                    <div className='grid gap-5 grid-cols-1 md:grid-cols-2 lg:grid-cols-3'>
                         <div className='py-7 flex flex-col gap-7'>
                             <img src={women} alt="" className='w-full h-84 rounded-3xl object-cover' />
                             <div className='flex flex-col gap-2'>
@@ -112,3 +112,27 @@ const Campaigns = () => {
 }
 
 export default Campaigns
+
+const campaigns = [
+    {
+        title: "Seeds of Resistance",
+        location: "Eastern Cape, RSA",
+        date: "March 20, 2025",
+        description: "This campaign brings together women farmers to reclaim ancestral land for communal farming. Through seed exchanges, soil healing workshops, and community planting days, “Seeds of Resistance” isreviving indigenous farming methods and strengthening local food systems rooted in tradition and resilience.",
+        picture: women
+    },
+    {
+        title: "Harvesting Dignity Mission",
+        location: "KwaZulu-Natal",
+        date: "May 10, 2025",
+        description: "Focused on building food sovereignty, this project supports local women-led cooperatives to grow, process, and distribute fresh produce within rural villages. The goal is to reduce food insecurity and challenge the exploitative middleman model by creating farm-to-table supply chains run by Black women.",
+        picture: women
+    },
+    {
+        title: "Agri-Education for Liberation",
+        location: "Venda, Limpopo",
+        date: "March 20, 2025",
+        description: "This campaign brings together women farmers to reclaim ancestral land for communal farming. Through seed exchanges, soil healing workshops, and community planting days, “Seeds of Resistance” isreviving indigenous farming methods and strengthening local food systems rooted in tradition and resilience.",
+        picture: women
+    }
+]
