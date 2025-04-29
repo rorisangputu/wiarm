@@ -39,6 +39,8 @@ const Campaigns = () => {
                     </div>
                     <div className='grid gap-5 grid-cols-1 md:grid-cols-2 lg:grid-cols-3'>
                         
+               
+                        
                     </div>
                 </div>
             </div>
@@ -61,13 +63,13 @@ const campaigns = [
         location: "KwaZulu-Natal",
         date: "May 10, 2025",
         description: "Focused on building food sovereignty, this project supports local women-led cooperatives to grow, process, and distribute fresh produce within rural villages. The goal is to reduce food insecurity and challenge the exploitative middleman model by creating farm-to-table supply chains run by Black women.",
-        picture: women
+        picture: sov
     },
     {
         title: "Agri-Education for Liberation",
         location: "Venda, Limpopo",
         date: "March 20, 2025",
         description: "This campaign brings together women farmers to reclaim ancestral land for communal farming. Through seed exchanges, soil healing workshops, and community planting days, “Seeds of Resistance” isreviving indigenous farming methods and strengthening local food systems rooted in tradition and resilience.",
-        picture: women
+        picture: mulch
     }
 ]
