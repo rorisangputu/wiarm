@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import blogImage from '../../assets/land.webp'; // Replace with your image path
+import Button from '../Button';
 
 const BlogCTA = () => {
     return (
@@ -31,10 +32,8 @@ const BlogCTA = () => {
                         late-night strategy circles. This blog post shares the spirit, sweat, and sisterhood that fuels
                         our movement and the small victories that keep us going.
                     </p>
-                    <Link to="/blog">
-                        <button className='mt-4 font-sans px-5 py-3 bg-green-900 hover:bg-[#2b5131] text-white rounded-xl shadow'>
-                            View All Blogs
-                        </button>
+                    <Link to="/blogs">
+                        <Button text={"View All Blogs"} styles='mt-4'/>
                     </Link>
                 </div>
 
