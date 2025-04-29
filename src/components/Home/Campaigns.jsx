@@ -4,6 +4,7 @@ import women from '../../assets/two_women_farming.jpg'
 import mulch from '../../assets/mulch_farming.webp'
 import sov from '../../assets/sov_food.jpg'
 import BlackButton from '../BlackButton'
+import CampaignTemp from '../CampaignTemp'
 
 const Campaigns = () => {
     return (
@@ -38,7 +39,17 @@ const Campaigns = () => {
                         </div>
                     </div>
                     <div className='grid gap-5 grid-cols-1 md:grid-cols-2 lg:grid-cols-3'>
-                        
+                        {
+                            campaigns.map((campaign, i) => (
+                                <CampaignTemp key={i}
+                                    title={campaign.title} 
+                                    location={campaign.location} 
+                                    date={campaign.date} 
+                                    description={campaign.description} 
+                                    picture={campaign.picture}
+                                />
+                            ))
+                        }
                
                         
                     </div>
