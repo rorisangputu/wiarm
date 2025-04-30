@@ -25,7 +25,7 @@ const Header = () => {
 
 
   return (
-    <div className={`w-full py-7 fixed top-[-2vh] left-0 z-50 transition-all duration-300 ${scrolled ? 'bg-white shadow-md mt-[-1]' : 'bg-transparent'
+    <div className={`w-full py-7 fixed left-0 z-50 transition-all duration-300 ${scrolled ? 'bg-white shadow-md mt-[-1]' : 'bg-transparent'
       }`}
     >
       <div className="w-[90%] mx-auto ">
