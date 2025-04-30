@@ -14,18 +14,18 @@ const MissionValuesAbout = () => {
             <div className='py-10'>
                 <div className='w-[90%] mx-auto'>
                     <div className='flex flex-col gap-5'>
-                        <div className='flex flex-col gap-3'>
-                            <h1 className='text-2xl tracking-wider text-green-900 font-sans'>Mission</h1>
-                            <p className='font-sans'>
+                        <div className='flex flex-col gap-3 py-5'>
+                            <h1 className='text-2xl  tracking-wider text-green-900 font-sans'>Mission</h1>
+                            <p className='font-sans mt-2'>
                                 To restore land access, achieve
                                 food sovereignty, and cultivate
                                 leadership among Black rural women
                                 through farming, education, and advocacy.
                             </p>
                         </div>
-                        <div className='flex flex-col gap-5'>
-                            <h1 className='text-2xl tracking-wide md:tracking-normal text-green-900 font-sans'>Our Core Values</h1>
-                            <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6'>
+                        <div className='flex flex-col py-5'>
+                            <h1 className='text-2xl tracking-wider md:tracking-normal text-green-900 font-sans pb-10'>Our Core Values</h1>
+                            <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8'>
                                 {core_values.map((value, index) => (
                                     <div key={index} className='flex flex-col items-center gap-3 text-center '>
                                         <value.icons className='w-10 h-10 md:w-8 md:h-8 text-green-800' />
