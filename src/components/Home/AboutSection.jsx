@@ -23,7 +23,7 @@ const AboutSection = () => {
                     <hr className="w-12 border-t-2 border-gray-200" />
                 </div>
                 <div>
-                    <p className='font-normal leading-6 text-3xl mb-3'>
+                    <p className='font-medium leading-7 text-3xl mb-3'>
                         WiARM is a collective of Black women dedicated 
                         to reclaiming our place in agriculture.
                     </p>
