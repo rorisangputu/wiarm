@@ -71,7 +71,7 @@ const Header = () => {
 
         {/* Dropdown Menu */}
         {isOpen && (
-          <div className={`mt-[-1vh] absolute top-full left-0 w-full bg-white shadow-md flex flex-col space-y-2 md:hidden z-40`}>
+          <div className={`mt-[-1vh] py-5 absolute top-full left-0 w-full bg-white shadow-md flex flex-col space-y-2 md:hidden z-40`}>
             {links.map((link) => (
               <Link
                 key={link.title}
