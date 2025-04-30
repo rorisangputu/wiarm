@@ -3,6 +3,7 @@ import Hero from '../components/About/Hero'
 import About from '../components/About/About'
 import Team from '../components/About/Team'
 import MissionValuesAbout from '../components/About/MissionValuesAbout'
+import Action from '../components/Action'
 
 const AboutUs = () => {
   return (
@@ -11,6 +12,7 @@ const AboutUs = () => {
       <About/>
       <MissionValuesAbout/>
       <Team/>
+      <Action/>
     </div>
   )
 }
