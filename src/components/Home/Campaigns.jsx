@@ -22,16 +22,16 @@ const Campaigns = () => {
                     <div className="flex flex-col">
                         <div className='flex items-center gap-4 justify-center mb-2'>
                             <hr className="w-16 border-t-2 border-[#cecece]" />
-                            <h1 className="uppercase font-normal tracking-[0.2em] text-white">
+                            <h1 className="uppercase font-normal tracking-[0.2em] text-white md:text-lg">
                                 Our campaigns
                             </h1>
                             <hr className="w-16 border-t-2 border-[#cecece]" />
                         </div>
                         <div className='text-center flex flex-col gap-5'>
-                            <h2 className='capitalize text-3xl text-white font-medium'>
+                            <h2 className='capitalize text-3xl md:text-4xl  text-white font-medium'>
                                 Some of our recent campaigns that helped touch lives
                             </h2>
-                            <p className='font-extralight text-lg'>
+                            <p className='font-extralight text-lg md:text-xl'>
                                 These are our most recent campaigns
                             </p>
                             <div className="flex justify-center">
@@ -41,7 +41,7 @@ const Campaigns = () => {
                             </div>
                         </div>
                     </div>
-                    <div className='grid gap-5 grid-cols-1 md:grid-cols-2 lg:grid-cols-3'>
+                    <div className='grid gap-5 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 md:pt-8'>
                         {
                             campaigns.map((campaign) => (
                                 <CampaignTemp 
