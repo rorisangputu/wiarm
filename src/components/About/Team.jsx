@@ -11,18 +11,18 @@ const Team = () => {
             <hr className='w-12 border-slate-400' />
           </div>
           <div className='flex flex-col text-center gap-3'>
-            <h2 className='capitalize text-3xl font-semibold'>Our team of generous philanthropists who make it possible</h2>
-            <p className='text-slate-600 text-lg'>Meet our team of heroes</p>
+            <h2 className='capitalize text-3xl py-3 md:max-w-lg md:text-4xl md:py-5 font-sans font-semibold'>Our team of generous philanthropists who make it possible</h2>
+            <p className='text-slate-600 text-lg font-sans'>Meet our team of heroes</p>
           </div>
         </div>
 
-        <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10'>
+        <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10 font-sans'>
           {teamMembers.map((member, index) => (
             <div key={index} className='flex flex-col items-center text-center'>
-              <img 
-                src={member.image} 
-                alt={member.name} 
-                className='w-50 h-50 object-cover rounded-full shadow-md mb-4' 
+              <img
+                src={member.image}
+                alt={member.name}
+                className='w-50 h-50 object-cover rounded-full shadow-md mb-4'
               />
               <h3 className='text-lg font-semibold'>{member.name}</h3>
               <p className='text-md text-green-800'>{member.role}</p>
