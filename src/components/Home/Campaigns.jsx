@@ -5,6 +5,7 @@ import mulch from '../../assets/mulch_farming.webp'
 import sov from '../../assets/sov_food.jpg'
 import BlackButton from '../BlackButton'
 import CampaignTemp from '../CampaignTemp'
+import { Link } from 'react-router-dom'
 
 const Campaigns = () => {
     return (
@@ -27,14 +28,16 @@ const Campaigns = () => {
                             <hr className="w-16 border-t-2 border-[#cecece]" />
                         </div>
                         <div className='text-center flex flex-col gap-5'>
-                            <h2 className='capitalize text-3xl text-white font-light'>
+                            <h2 className='capitalize text-3xl text-white font-medium'>
                                 Some of our recent campaigns that helped touch lives
                             </h2>
                             <p className='font-extralight text-lg'>
                                 These are our most recent campaigns
                             </p>
                             <div className="flex justify-center">
-                                <BlackButton text={"View all campaigns"}/>
+                                <Link to={`/campaigns`}>
+                                    <BlackButton text={"View all campaigns"}/>
+                                </Link>
                             </div>
                         </div>
                     </div>
