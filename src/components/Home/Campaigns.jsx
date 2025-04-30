@@ -40,14 +40,15 @@ const Campaigns = () => {
                     </div>
                     <div className='grid gap-5 grid-cols-1 md:grid-cols-2 lg:grid-cols-3'>
                         {
-                            campaigns.map((campaign, i) => (
+                            campaigns.map((campaign) => (
                                 <CampaignTemp 
-                                    key={i}
-                                    title={campaign.title} 
-                                    location={campaign.location} 
-                                    date={campaign.date} 
-                                    description={campaign.description} 
-                                    picture={campaign.picture}
+                                key={campaign.id}
+                                id={campaign.id}
+                                title={campaign.title}
+                                location={campaign.location}
+                                date={campaign.date}
+                                description={campaign.description}
+                                picture={campaign.picture}
                                 />
                             ))
                         }
@@ -62,24 +63,28 @@ export default Campaigns
 
 const campaigns = [
     {
-        title: "Seeds of Resistance",
-        location: "Eastern Cape, RSA",
-        date: "March 20, 2025",
-        description: "This campaign brings together women farmers to reclaim ancestral land for communal farming. Through seed exchanges, soil healing workshops, and community planting days, “Seeds of Resistance” isreviving indigenous farming methods and strengthening local food systems rooted in tradition and resilience.",
-        picture: women
+      id: 1,
+      title: "Seeds of Resistance",
+      location: "Eastern Cape, RSA",
+      date: "March 20, 2025",
+      description: "This campaign brings together women farmers to reclaim ancestral land...",
+      picture: women,
     },
     {
-        title: "Harvesting Dignity Mission",
-        location: "KwaZulu-Natal",
-        date: "May 10, 2025",
-        description: "Focused on building food sovereignty, this project supports local women-led cooperatives to grow, process, and distribute fresh produce within rural villages. The goal is to reduce food insecurity and challenge the exploitative middleman model by creating farm-to-table supply chains run by Black women.",
-        picture: sov
+      id: 2,
+      title: "Harvesting Dignity Mission",
+      location: "KwaZulu-Natal",
+      date: "May 10, 2025",
+      description: "Focused on building food sovereignty, this project supports women-led cooperatives...",
+      picture: sov,
     },
     {
-        title: "Agri-Education for Liberation",
-        location: "Venda, Limpopo",
-        date: "March 20, 2025",
-        description: "This campaign brings together women farmers to reclaim ancestral land for communal farming. Through seed exchanges, soil healing workshops, and community planting days, “Seeds of Resistance” isreviving indigenous farming methods and strengthening local food systems rooted in tradition and resilience.",
-        picture: mulch
-    }
-]
+      id: 3,
+      title: "Agri-Education for Liberation",
+      location: "Venda, Limpopo",
+      date: "March 20, 2025",
+      description: "This campaign empowers women through education, soil healing workshops...",
+      picture: mulch,
+    },
+  ];
+  
