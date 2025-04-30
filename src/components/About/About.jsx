@@ -22,8 +22,8 @@ const About = () => {
                     tracking-widest'>
                     WiARM
                   </h1>
-                  <p className='text-gray-900 pt-2 font-sans'>
-                    <span className='text-green-900'>Women in Agriculture Rural Movement </span>
+                  <p className='text-gray-700 pt-2 font-sans'>
+                    <span className='text-green-900 '>Women in Agriculture Rural Movement </span>
                     is a grassroots
                     collective of Black women committed to reclaiming land,
                     food systems, and power in our rural communities. Born
@@ -50,7 +50,7 @@ const About = () => {
                   />
                 </div>
                 <div className='flex flex-col h-full justify-center items-center md:w-1/2 font-sans'>
-                  <p className='pt-2 text-gray-900'>
+                  <p className='pt-2 text-gray-700'>
                     We believe that agriculture is not just about growing
                     food—it's about restoring sovereignty, healing generational
                     wounds, and building systems that serve us.
