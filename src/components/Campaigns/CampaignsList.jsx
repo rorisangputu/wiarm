@@ -1,0 +1,64 @@
+import React from 'react'
+import dotted from '../../assets/dotted_sa_bg.png'
+import BlackButton from '../BlackButton'
+import CampaignTemp from '../CampaignTemp'
+import { campaigns } from '../../data/campaignData'
+
+const CampaignsList = () => {
+    return (
+        <div className='w-full bg-green-900 py-10 relative overflow-hidden'>
+
+            {/* Background Image Positioned Behind Content */}
+            <img
+                src={dotted}
+                alt="wheatbg"
+                className="absolute inset-0 w-full h-full object-cover opacity-15 z-0"
+            />
+            <div className='w-[90%] mx-auto relative z-10 text-white'>
+                <div className='flex flex-col gap-5'>
+                    <div className="flex flex-col">
+                        <div className='flex items-center gap-4 justify-center mb-2'>
+                            <hr className="w-16 border-t-2 border-[#cecece]" />
+                            <h1 className="uppercase font-normal tracking-[0.2em] text-white">
+                                Our campaigns
+                            </h1>
+                            <hr className="w-16 border-t-2 border-[#cecece]" />
+                        </div>
+                        <div className='text-center flex flex-col gap-5'>
+                            <h2 className='capitalize text-3xl text-white font-light'>
+                                Some of our recent campaigns that helped touch lives
+                            </h2>
+                            <p className='font-extralight text-lg'>
+                                These are our most recent campaigns
+                            </p>
+                            <div className="flex justify-center">
+                                <BlackButton text={"View all campaigns"}/>
+                            </div>
+                        </div>
+                    </div>
+                    <div className='grid gap-5 grid-cols-1 md:grid-cols-2 lg:grid-cols-3'>
+                        {
+                            campaigns.map((campaign) => (
+                                <CampaignTemp
+                                    key={campaign.id}
+                                    id={campaign.id}
+                                    title={campaign.title}
+                                    location={campaign.location}
+                                    date={campaign.date}
+                                    description={campaign.description}
+                                    picture={campaign.picture}
+                                />
+
+                            ))
+                        }
+                    </div>
+                </div>
+            </div>
+        </div>
+    )
+}
+
+export default CampaignsList
+
+
+  
