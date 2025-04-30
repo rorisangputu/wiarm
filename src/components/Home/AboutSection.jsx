@@ -6,7 +6,7 @@ import Button from '../Button';
 
 const AboutSection = () => {
   return (
-    <div className='w-full py-16'>
+    <div className='w-full py-16 md:py-20'>
       <div className='w-[90%] mx-auto'>
         {/* Flex container with responsive direction */}
         <div className='flex flex-col-reverse md:flex-row items-center gap-8'>
