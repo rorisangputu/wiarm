@@ -34,7 +34,6 @@ const MissionValuesAbout = () => {
                             </div>
                             ))}
                         </div>
-
                     </div>
                 </div>
             </div>
