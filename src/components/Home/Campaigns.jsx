@@ -41,7 +41,8 @@ const Campaigns = () => {
                     <div className='grid gap-5 grid-cols-1 md:grid-cols-2 lg:grid-cols-3'>
                         {
                             campaigns.map((campaign, i) => (
-                                <CampaignTemp key={i}
+                                <CampaignTemp 
+                                    key={i}
                                     title={campaign.title} 
                                     location={campaign.location} 
                                     date={campaign.date} 
@@ -50,8 +51,6 @@ const Campaigns = () => {
                                 />
                             ))
                         }
-               
-                        
                     </div>
                 </div>
             </div>
