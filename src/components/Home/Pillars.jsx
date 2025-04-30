@@ -5,9 +5,9 @@ const Pillars = () => {
     <div className='w-full py-12'>
       <div className='w-[90%] mx-auto'>
         <div className='flex flex-col'>
-          <div className='flex flex-col gap-3'>
+          <div className='flex flex-col justify-start gap-3'>
             <div className="flex items-center gap-4">
-              <h1 className="uppercase font-medium tracking-[0.2em] text-green-800">
+              <h1 className="uppercase text-xl font-medium tracking-[0.2em] text-green-800">
                 Key Pillars
               </h1>
               <hr className="w-12 border-t-2 border-gray-200" />
