@@ -11,11 +11,11 @@ const AboutSection = () => {
         {/* Flex container with responsive direction */}
         <div className='flex flex-col-reverse md:flex-row items-center gap-8'>
            {/* Image Section */}
-            <div className='flex-1'>
-                <img src={farmingWomen} alt="Farming Women" className='w-full h-[40vh]  object-cover rounded-lg' />
+            <div className=' md:w-1/2'>
+                <img src={farmingWomen} alt="Farming Women" className='w-full h-[40vh] md:h-[30vh]  object-cover rounded-lg' />
             </div>
-          {/* Text Section */}
-            <div className='flex-2 flex flex-col gap-4'>
+            {/* Text Section */}
+            <div className='flex flex-col gap-4 md:w-1/2'>
                 <div className="flex items-center gap-4">
                     <h1 className="uppercase font-medium tracking-[0.2em] text-green-800">
                         About Us
