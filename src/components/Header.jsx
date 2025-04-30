@@ -7,6 +7,7 @@ const links = [
   { title: "Home", url: "/" },
   { title: "About", url: "/about-us" },
   { title: "Campaigns", url: "/campaigns" },
+  { title: "Contact Us", url: "/contact" },
 ];
 
 const Header = () => {
