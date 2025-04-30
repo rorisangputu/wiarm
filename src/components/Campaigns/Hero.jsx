@@ -3,7 +3,7 @@ import african_woman from '../../assets/GetInvolved.png'
 
 const Hero = () => {
   return (
-    <div className='w-full h-[65vh] py-10 relative flex bg-gray-900 text-white'>
+    <div className='w-full h-[60vh] py-10 relative flex bg-gray-900 text-white'>
         <img src={african_woman} alt="" className="absolute inset-0 w-full h-full object-cover opacity-50"/>
         
         <div className='w-[90%] mx-auto relative z-10'>
