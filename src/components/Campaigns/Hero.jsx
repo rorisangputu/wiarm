@@ -15,7 +15,7 @@ const Hero = () => {
                         </p>
                         <hr className='w-12 border-slate-300' />
                     </div>
-                    <h1 className='capitalize text-4xl md:text-5xl  font-medium text-center'>
+                    <h1 className='capitalize font-sans text-4xl md:text-5xl font-semibold text-center'>
                         Some Of Our Recent Campaigns That Helped Touch Lives
                     </h1>
                 </div>
