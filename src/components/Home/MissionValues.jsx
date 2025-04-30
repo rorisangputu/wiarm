@@ -14,19 +14,19 @@ const MissionValues = () => {
 
       {/* Content Layer */}
       <div className='w-[90%] mx-auto relative z-10'>
-        <div className='flex flex-col'>
+        <div className='flex flex-col text-gray-100'>
           <div className="flex items-center gap-4 justify-center mb-5">
             <hr className="w-12 border-t-2 border-[#cecece]" />
-            <h1 className="uppercase font-medium tracking-[0.2em] text-white">
+            <h1 className="uppercase font-medium tracking-[0.2em] ">
               Mission & Values
             </h1>
             <hr className="w-12 border-t-2 border-[#cecece]" />
           </div>
 
           <div className='flex flex-col gap-10  md:flex-row'>
-            <div className='flex flex-col gap-3'>
-              <h1 className='text-white text-lg font-medium'>Our Mission</h1>
-              <ul className="list-disc list-outside ml-5 text-white space-y-2 font-light">
+            <div className='flex flex-col gap-5'>
+              <h1 className='text-gray-100 text-2xl font-medium'>Our Mission</h1>
+              <ul className="list-disc list-outside ml-5 space-y-2 font-light">
                 <li>
                   To empower Black women in rural communities to 
                   own and work the land
@@ -40,9 +40,9 @@ const MissionValues = () => {
                 </li>
               </ul>
             </div>
-            <div className='flex flex-col gap-3'>
-              <h1 className='text-white text-lg font-medium'>Our Values</h1>
-              <ul className="list-disc list-outside ml-5 text-white space-y-2 font-light">
+            <div className='flex flex-col gap-5'>
+              <h1 className='text-2xl font-medium'>Our Values</h1>
+              <ul className="list-disc list-outside ml-5 space-y-2 font-light">
                 <li>
                   To empower Black women in rural communities to 
                   own and work the land
