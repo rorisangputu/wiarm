@@ -1,7 +1,6 @@
 import React from 'react'
 import Hero from '../components/About/Hero'
 import About from '../components/About/About'
-import MissionValues from '../components/Home/MissionValues'
 import Team from '../components/About/Team'
 import MissionValuesAbout from '../components/About/MissionValuesAbout'
 
