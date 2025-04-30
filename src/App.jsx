@@ -4,6 +4,7 @@ import { Route, Routes } from 'react-router-dom'
 import Footer from './components/Footer'
 import AboutUs from './pages/AboutUs'
 import Campaigns from './pages/Campaigns'
+import CampaignDetail from './components/Campaigns/CampaignDetail'
 
 function App() {
   
@@ -16,6 +17,7 @@ function App() {
         <Route path="/about-us" element={<Layout><AboutUs/></Layout>} />
         {/* Campaigns */}
         <Route path="/campaigns" element={<Layout><Campaigns/></Layout>} />
+        <Route path="/campaigns/:id" element={<Layout><CampaignDetail /></Layout>} />
       </Routes>
       <Footer/>
     </div>
