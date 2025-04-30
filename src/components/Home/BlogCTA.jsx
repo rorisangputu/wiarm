@@ -5,7 +5,7 @@ import Button from '../Button';
 
 const BlogCTA = () => {
     return (
-        <div className='w-full bg-[#f4f4f4] py-10 '>
+        <div className='w-full bg-[#f4f4f4] py-10 md:py-16 '>
             <div className='w-[90%] mx-auto flex flex-col md:flex-row items-center gap-8'>
 
                 {/* Image */}
@@ -13,7 +13,7 @@ const BlogCTA = () => {
                     <img
                         src={blogImage}
                         alt="WiARM Blog Teaser"
-                        className='w-full h-[350px] object-cover rounded-3xl shadow-md'
+                        className='w-full h-[350px] md:h-[400px] object-cover rounded-3xl shadow-md'
                     />
                 </div>
 
@@ -33,7 +33,7 @@ const BlogCTA = () => {
                         our movement and the small victories that keep us going.
                     </p>
                     <Link to="/blogs">
-                        <Button text={"View All Blogs"} styles='mt-4'/>
+                        <Button text={"View All Blogs"} styles='mt-4 md:justify-end'/>
                     </Link>
                 </div>
 
