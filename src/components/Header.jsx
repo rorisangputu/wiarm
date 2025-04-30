@@ -38,6 +38,20 @@ const Header = () => {
             </div>
           </Link>
 
+          {/* Nav Links for Medium and Larger Screens */}
+          <div className="hidden md:flex items-center gap-6">
+            {links.map((link) => (
+              <Link
+                key={link.title}
+                to={link.url}
+                className={`text-sm font-medium ${scrolled || isOpen ? 'text-gray-900' : 'text-white'} hover:underline`}
+              >
+                {link.title}
+              </Link>
+            ))}
+          </div>
+
+
           {/* Toggle Button */}
           <button
             onClick={() => setIsOpen(!isOpen)}
