@@ -41,7 +41,7 @@ const About = () => {
                   />
                 </div>
               </div>
-              <div className='flex flex-col-reverse md:flex-row gap-6 items-center py-10'>
+              <div className='flex flex-col-reverse md:flex-row gap-6 items-center md:py-10'>
                 <div className='md:w-1/2'>
                   <img
                     src={women}
