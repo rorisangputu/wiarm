@@ -11,12 +11,9 @@ const Hero = () => {
                 <p className='uppercase text-xs font-medium text-green-500 tracking-[0.1em]'>
                  Rooted in Resistance, Growing in Power.
                 </p>
-                <h1 className='capitalize text-3xl font-medium'>Reclaiming Land. Restoring Dignity. Reshaping Futures.</h1>
-                <div className='flex justify-start mt-4'>
-                    <button className='capitalize text-[#dddddd] py-3 px-5 rounded-lg bg-[#232d25]'>
-                        Learn more
-                    </button>
-                </div>
+                <h1 className='capitalize text-3xl font-medium'>
+                    Reclaiming Land. Restoring Dignity. Reshaping Futures.
+                </h1>
             </div>
         </div>
     </div>
