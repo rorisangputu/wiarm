@@ -25,7 +25,7 @@ const Header = () => {
 
 
   return (
-    <div className={`w-full py-7 fixed left-0 z-50 transition-all duration-300 ${scrolled ? 'bg-white shadow-md mt-[-1]' : 'bg-transparent'
+    <div className={`w-full py-7 fixed left-0 z-50 transition-all duration-300 ${(scrolled || isOpen) ? 'bg-white shadow-md mt-[-1]' : 'bg-transparent'
       }`}
     >
       <div className="w-[90%] mx-auto ">
@@ -34,7 +34,7 @@ const Header = () => {
           <Link to='/' className="flex items-center gap-2">
             <img src={corn} alt="" className="h-7 w-7" />
             <div className="py-2">
-              <h1 className={`text-2xl font-light ${scrolled ? 'text-gray-900' : 'text-white'}`}>WIARM</h1>
+              <h1 className={`text-2xl font-light ${(scrolled || isOpen) ? 'text-gray-900' : 'text-white'}`}>WIARM</h1>
             </div>
           </Link>
 
@@ -46,7 +46,7 @@ const Header = () => {
             <svg
               className="w-8 h-8"
               fill="none"
-              stroke={scrolled ? "black" : "white"}
+              stroke={(scrolled || isOpen) ? "black" : "white"}
               viewBox="0 0 24 24"
               xmlns="http://www.w3.org/2000/svg"
             >
