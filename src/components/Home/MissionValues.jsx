@@ -3,7 +3,7 @@ import wheatbg from '../../assets/wheatbg.png'
 
 const MissionValues = () => {
   return (
-    <div className='w-full bg-green-900 py-10 relative overflow-hidden'>
+    <div className='w-full bg-green-900 py-20 relative overflow-hidden'>
 
       {/* Background Image Positioned Behind Content */}
       <img
