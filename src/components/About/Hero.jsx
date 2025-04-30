@@ -11,7 +11,7 @@ const Hero = () => {
           <p className='uppercase text-xs md:text-sm font-medium text-green-500 tracking-[0.1em]'>
             Rooted in Resistance, Growing in Power.
           </p>
-          <h1 className='capitalize text-3xl md:text-4xl font-medium'>
+          <h1 className='capitalize text-3xl md:text-4xl font-bold font-sans'>
             Reclaiming Land. Reshaping Futures. Restoring Dignity.
           </h1>
         </div>
