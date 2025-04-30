@@ -6,10 +6,10 @@ import { FaPhoneAlt } from "react-icons/fa";
 const Footer = () => {
   return (
     <div className='w-full bg-green-900 py-7 text-[#dddddd]'>
-      <div className='w-[90%] max-w-7xl mx-auto flex flex-col justify-between'>
+      <div className='w-[90%] mx-auto flex flex-col justify-between'>
         
         {/* Top Section */}
-        <div className='w-full grid grid-cols-1 md:grid-cols-3 gap-10'>
+        <div className='w-full grid grid-cols-1 md:grid-cols-2 gap-10 md:gap-5'>
           
           {/* Logo and Contact Info */}
           <div className='flex flex-col gap-3'>
@@ -22,7 +22,7 @@ const Footer = () => {
           </div>
 
           {/* Quick Links */}
-          <div className='grid grid-cols-2 md:grid-cols-3 gap-10'>
+          <div className='grid grid-cols-2 md:grid-cols-3 gap-10 md:gap-5'>
             <div>
               <h1 className='text-md font-sans font-medium tracking-[0.2em] uppercase mb-3 text-white'>Quick Links</h1>
               <ul className='space-y-4 font-normal text-md'>
