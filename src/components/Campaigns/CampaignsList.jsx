@@ -15,26 +15,12 @@ const CampaignsList = () => {
                 className="absolute inset-0 w-full h-full object-cover opacity-15 z-0"
             />
             <div className='w-[90%] mx-auto relative z-10 text-white'>
-                <div className='flex flex-col gap-5'>
-                    <div className="flex flex-col">
-                        <div className='flex items-center gap-4 justify-center mb-2'>
-                            <hr className="w-16 border-t-2 border-[#cecece]" />
-                            <h1 className="uppercase font-normal tracking-[0.2em] text-white">
-                                Our campaigns
-                            </h1>
-                            <hr className="w-16 border-t-2 border-[#cecece]" />
-                        </div>
-                        <div className='text-center flex flex-col gap-5'>
-                            <h2 className='capitalize text-3xl text-white font-light'>
-                                Some of our recent campaigns that helped touch lives
-                            </h2>
-                            <p className='font-extralight text-lg'>
-                                These are our most recent campaigns
-                            </p>
-                            <div className="flex justify-center">
-                                <BlackButton text={"View all campaigns"}/>
-                            </div>
-                        </div>
+                <div className='flex flex-col gap-10'>
+                    <div className=' flex flex-col items-center gap-5'>
+                        <p className='text-center capitalize font-extralight text-lg'>
+                            Explore our most recent campaigns
+                        </p>
+                        <hr className='w-30'/>
                     </div>
                     <div className='grid gap-5 grid-cols-1 md:grid-cols-2 lg:grid-cols-3'>
                         {
