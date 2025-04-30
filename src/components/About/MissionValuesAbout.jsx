@@ -15,7 +15,7 @@ const MissionValuesAbout = () => {
             <div className='w-[90%] mx-auto'>
                 <div className='flex flex-col gap-5'>
                     <div className='flex flex-col gap-3'>
-                        <h1 className='text-xl tracking-wider text-green-900'>Mission</h1>
+                        <h1 className='text-2xl tracking-wider text-green-900'>Mission</h1>
                         <p>
                             To restore land access, achieve 
                             food sovereignty, and cultivate 
@@ -24,7 +24,7 @@ const MissionValuesAbout = () => {
                         </p>
                     </div>
                     <div className='flex flex-col gap-5'>
-                        <h1 className='text-xl tracking-wider text-green-900'>Our Core Values</h1>
+                        <h1 className='text-2xl tracking-wider text-green-900'>Our Core Values</h1>
                         <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6'>
                             {core_values.map((value, index) => (
                             <div key={index} className='flex flex-col items-center gap-3 text-center bg-white p-4 rounded-lg shadow-md'>
