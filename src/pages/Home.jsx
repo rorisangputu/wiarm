@@ -5,7 +5,7 @@ import Pillars from '../components/Home/Pillars'
 import MissionValues from '../components/Home/MissionValues'
 import Campaigns from '../components/Home/Campaigns'
 import BlogCTA from '../components/Home/BlogCTA'
-import Action from '../components/Home/Action'
+import Action from '../components/Action'
 
 const Home = () => {
   return (
