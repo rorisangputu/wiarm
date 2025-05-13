@@ -5,11 +5,11 @@ const Contact = () => {
   return (
     <div className="flex flex-col w-full">
       {/* Hero Section */}
-      <div className="relative w-full h-[50vh] flex justify-center items-center text-white">
+      <div className="relative w-full h-[50vh] md:h-[30vh] flex justify-center items-center text-white">
         <img
           src={contact_bg}
           alt="Contact background"
-          className="absolute inset-0 w-full h-full object-cover opacity-50"
+          className="absolute inset-0 w-full h-full object-cover opacity-100"
         />
         <div className="relative z-10 text-center text-green-800">
           <h1 className="text-4xl font-semibold">Contact Us</h1>
@@ -22,7 +22,7 @@ const Contact = () => {
         {/* Form */}
         <div>
           <h2 className="text-2xl font-semibold mb-4 text-green-900">Send us a message</h2>
-          <form className="flex flex-col gap-5">
+          <form className="flex flex-col gap-5 md:max-w-md">
             <input
               type="text"
               placeholder="Your Name"
