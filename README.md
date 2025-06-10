@@ -3,7 +3,7 @@
 This website serves as an engaging platform to showcase various social and community campaigns aimed at creating positive impact. It empowers visitors to explore ongoing initiatives, learn about the causes, and get involved in meaningful ways.
 
 # Live Demo
-https://wiarm.vercel.app/
+https://wiarm.vercel.app/ 
 
 ## Overview
 
